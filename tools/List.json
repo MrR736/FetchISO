@@ -1,6 +1,18 @@
 [
     {
         "arch": "amd64",
+        "name": "Android-x86 9.0 x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.6-x86_64-xfce.iso",
+        "file": "androidx86.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "Android-x86 9.0 x86",
+        "url": "https://sourceforge.net/projects/android-x86/files/Release%209.0/android-x86-9.0-r2.iso",
+        "file": "androidx86.iso"
+    },
+    {
+        "arch": "amd64",
         "name": "Arch Linux 2025.01.01 x86_64",
         "url": "https://geo.mirror.pkgbuild.com/iso/2025.01.01/archlinux-2025.01.01-x86_64.iso",
         "file": "archlinux.iso"
@@ -679,19 +691,19 @@
     },
     {
         "arch": "amd64",
-        "name": "Kinoite 41",
+        "name": "Kinoite 41 x86_64",
         "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-41-1.4.iso",
         "file": "Kinoite.iso"
     },
     {
         "arch": "aarch64",
-        "name": "Kinoite 41",
+        "name": "Kinoite 41 ARM64",
         "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/aarch64/iso/Fedora-Kinoite-ostree-aarch64-41-1.4.iso",
         "file": "Kinoite.iso"
     },
     {
         "arch": "ppc64le",
-        "name": "Kinoite 41",
+        "name": "Kinoite 41 PowerPC",
         "url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/41/Kinoite/ppc64le/iso/Fedora-Kinoite-ostree-ppc64le-41-1.4.iso",
         "file": "Kinoite.iso"
     },
@@ -790,42 +802,6 @@
         "name": "Mageia 9 GNOME Desktop Live Boot x86_64",
         "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso",
         "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "MX Linux 23.5 Xfce x86_64",
-        "url": "https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.5_x64.iso",
-        "file": "MXLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "MX Linux 23.5 KDE x86_64",
-        "url": "https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-23.5_KDE_x64.iso",
-        "file": "MXLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "MX Linux 23.5 Fluxbox x86_64",
-        "url": "https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.5_fluxbox_x64.iso",
-        "file": "MXLinux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "MX Linux 23.5 Fluxbox x86",
-        "url": "https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.5_fluxbox_386.iso",
-        "file": "MXLinux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "MX Linux 23.5 Xfce x86",
-        "url": "https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.5_386.iso",
-        "file": "MXLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "MX Linux 23.5 Xfce AHS x86_64",
-        "url": "https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.5_ahs_x64.iso",
-        "file": "MXLinux.iso"
     },
     {
         "arch": "amd64",
@@ -988,5 +964,479 @@
         "name": "Debian 12 Netinst s390x",
         "url": "https://cdimage.debian.org/debian-cd/current/s390x/iso-cd/debian-12.9.0-s390x-netinst.iso",
         "file": "debian.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "SparkyLinux 7.6 Xfce x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.6-x86_64-xfce.iso",
+        "file": "sparkylinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "SparkyLinux 7.6 Mate x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.6-x86_64-mate.iso",
+        "file": "sparkylinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "SparkyLinux 7.6 KDE x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.6-x86_64-kde.iso",
+        "file": "sparkylinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "SparkyLinux 7.6 LXQt x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.6-x86_64-lxqt.iso",
+        "file": "sparkylinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "SparkyLinux 7.6 Base x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.6-x86_64-minimalgui.iso",
+        "file": "sparkylinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "SparkyLinux 7.6 CLI x86_64",
+        "url": "https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.6-x86_64-minimalcli.iso",
+        "file": "sparkylinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Manjaro Linux 24.2.1 KDE x86_64",
+        "url": "https://sourceforge.net/projects/manjarolinux/files/kde/24.2.1/manjaro-kde-24.2.1-241216-linux612.iso",
+        "file": "manjaro.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Manjaro Linux 24.2.1 GNOME x86_64",
+        "url": "https://sourceforge.net/projects/manjarolinux/files/gnome/24.2.1/manjaro-gnome-24.2.1-241216-linux612.iso",
+        "file": "manjaro.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Manjaro Linux 24.2.1 Xfce x86_64",
+        "url": "https://sourceforge.net/projects/manjarolinux/files/xfce/24.2.1/manjaro-xfce-24.2.1-241216-linux612.iso",
+        "file": "manjaro.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Manjaro Linux 24.0.5 Cinnamon x86_64",
+        "url": "https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-240729-linux69.iso",
+        "file": "manjaro.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "GParted Live 1.7.0-1 x86_64",
+        "url": "https://sourceforge.net/projects/gparted/files/gparted-live-stable/1.7.0-1/gparted-live-1.7.0-1-amd64.iso",
+        "file": "gparted.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "GParted Live 1.6.0-10 x86 pae",
+        "url": "https://sourceforge.net/projects/gparted/files/gparted-live-stable/1.6.0-10/gparted-live-1.6.0-10-i686-pae.iso",
+        "file": "gparted.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Univention Corporate Server 5.2-0 x86_64",
+        "url": "https://updates.software-univention.de/download/ucs-cds/ucs5/UCS_5.2-0-amd64.iso",
+        "file": "ucs.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "Univention Corporate Server 4.4-9 x86",
+        "url": "https://updates.software-univention.de/download/ucs-cds/ucs4/UCS_Update_4.4-8_-_4.4-9-i386.iso",
+        "file": "ucs.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Parrot Home 6.3.2 x86_64",
+        "url": "https://deb.parrot.sh/parrot/iso/6.3.2/Parrot-home-6.3.2_amd64.iso",
+        "file": "parrot.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Parrot htb 6.3.2 x86_64",
+        "url": "https://deb.parrot.sh/parrot/iso/6.3.2/Parrot-htb-6.3.2_amd64.iso",
+        "file": "parrot.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Parrot Security 6.3.2 x86_64",
+        "url": "https://deb.parrot.sh/parrot/iso/6.3.2/Parrot-security-6.3.2_amd64.iso",
+        "file": "parrot.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "FreeBSD Bootonly x86_64",
+        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "FreeBSD DVD x86_64",
+        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "FreeBSD DISC x86_64",
+        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "FreeBSD MemStick x86_64",
+        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "FreeBSD MINI-MemStick x86_64",
+        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "FreeBSD Bootonly x86",
+        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "FreeBSD DVD x86",
+        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-dvd1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "FreeBSD DISC x86",
+        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "FreeBSD MemStick x86",
+        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "FreeBSD MINI-MemStick x86",
+        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-mini-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD Bootonly ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD DVD ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-dvd1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD DISC ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD MemStick ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD MINI-MemStick ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-mini-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD PINE64 ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-PINE64.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD PINE64 LTS ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-PINE64-LTS.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD PINEBOOK ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-PINEBOOK.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD ROCK64 ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-ROCK64.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD ROCKPRO64 ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-ROCKPRO64.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "FreeBSD RPI ARM64",
+        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-RPI.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "armhf",
+        "name": "FreeBSD GENERICSD ARMV7",
+        "url": "https://download.freebsd.org/releases/arm/armv7/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm-armv7-GENERICSD.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppc",
+        "name": "FreeBSD Bootonly ppc",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpc/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppc",
+        "name": "FreeBSD DISC ppc",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpc/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppc64",
+        "name": "FreeBSD Bootonly ppc64",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpc64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppc64",
+        "name": "FreeBSD DISC ppc64",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpc64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppc64le",
+        "name": "FreeBSD Bootonly ppc64le",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpc64le/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64le-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppc64le",
+        "name": "FreeBSD DISC ppc64le",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpc64le/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64le-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppcspe",
+        "name": "FreeBSD Bootonly ppcspe",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpcspe/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpcspe-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "ppcspe",
+        "name": "FreeBSD DISC ppcspe",
+        "url": "https://download.freebsd.org/releases/powerpc/powerpcspe/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpcspe-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "riscv64",
+        "name": "FreeBSD GENERICSD riscv64",
+        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-GENERICSD.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "riscv64",
+        "name": "FreeBSD Bootonly riscv64",
+        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-bootonly.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "riscv64",
+        "name": "FreeBSD DISC riscv64",
+        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-disc1.iso.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "riscv64",
+        "name": "FreeBSD MemStick riscv64",
+        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "riscv64",
+        "name": "FreeBSD MINI-MemStick riscv64",
+        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-mini-memstick.img.xz",
+        "file": "FreeBSD.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Nitrux Linux 3.9.0 x86_64",
+        "url": "https://sourceforge.net/projects/nitruxos/files/Release/ISO/nitrux-nx-desktop-plasma-19c70056-amd64.iso",
+        "file": "Nitrux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Void Linux Base glibc x86_64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-base.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Void Linux Base musl x86_64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-base.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Void Linux Xfce glibc x86_64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-xfce.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Void Linux Xfce musl x86_64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-xfce.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "Void Linux Base glibc x86",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-i686-20250202-base.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "i386",
+        "name": "Void Linux Xfce glibc x86",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-i686-20250202-xfce.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Void Linux Base glibc ARM64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-20250202-base.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Void Linux Base musl ARM64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-musl-20250202-base.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Void Linux Xfce glibc ARM64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-20250202-xfce.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Void Linux Xfce musl ARM64",
+        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-musl-20250202-xfce.iso",
+        "file": "voidlinux.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 40 Flagship Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-flagship-40-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 40 GNOME Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-gnome-40-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 40 KDE Plasma Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-kde-40-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 40 Xfce Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-xfce-40-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 40 Flagship Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-flagship-40-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 40 GNOME Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-gnome-40-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 40 KDE Plasma Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-kde-40-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 40 Xfce Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-xfce-40-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 41 Flagship Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 41 GNOME Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-gnome-41-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 41 KDE Plasma Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-plasma-41-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "amd64",
+        "name": "Ultramarine Linux 41 Xfce Edition x86_64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-xfce-41-live-x86_64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 41 Flagship Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 41 GNOME Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-gnome-41-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 41 KDE Plasma Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-plasma-41-live-aarch64.iso",
+        "file": "ultramarine.iso"
+    },
+    {
+        "arch": "aarch64",
+        "name": "Ultramarine Linux 41 Xfce Edition ARM64",
+        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-xfce-41-live-aarch64.iso",
+        "file": "ultramarine.iso"
     }
 ]

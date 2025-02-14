@@ -31,8 +31,8 @@
     },
     {
         "arch": "all",
-        "name": "Ventoy 1.1.00 livecd",
-        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.00/ventoy-1.1.00-livecd.iso",
+        "name": "Ventoy 1.1.02 livecd",
+        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso",
         "file": "Ventoy-livecd.iso"
     },
     {

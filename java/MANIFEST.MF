@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: 17.0.14
+Implementation-Title: FetchISO Java
+Implementation-Version: 1.0
+Main-Class: com.github.mrr736.fetchiso.FetchISOApp

@@ -31,8 +31,8 @@
     },
     {
         "arch": "all",
-        "name": "Ventoy 1.1.02 livecd",
-        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.02/ventoy-1.1.02-livecd.iso",
+        "name": "Ventoy 1.1.05 livecd",
+        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso",
         "file": "Ventoy-livecd.iso"
     },
     {
@@ -1438,5 +1438,59 @@
         "name": "Ultramarine Linux 41 Xfce Edition ARM64",
         "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-xfce-41-live-aarch64.iso",
         "file": "ultramarine.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 Official Standard",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Official-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 GNOME Desktop Standard",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-GNOME-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 KDE Desktop Standard",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-KDE-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 Steam HTPC Standard",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Steam-HTPC-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 Steam Handheld Standard",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Steam-Handheld-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 Official Nvidia",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Official-Nvidia-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 GNOME Desktop Nvidia",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-GNOME-Nvidia-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 KDE Desktop Nvidia",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-KDE-Nvidia-2025-02-20.iso",
+        "file": "Nobara.iso"
+    },
+    {
+        "arch": "all",
+        "name": "Nobara 41 Steam HTPC Nvidia",
+        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Steam-HTPC-Nvidia-2025-02-20.iso",
+        "file": "Nobara.iso"
     }
 ]

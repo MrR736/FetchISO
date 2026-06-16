@@ -1,79 +1,98 @@
 /*
-// Downloader for Modern Java
-// version 1.0
-// https://github.com/MrR736/FetchISO
-//
-// SPDX-FileCopyrightText: 2025 MrR736 <https://github.com/MrR736>
-// SPDX-License-Identifier: MIT
-*/
+ * Downloader for Modern Java
+ * version 1.1
+ * https://github.com/MrR736/FetchISO
+ *
+ * SPDX-FileCopyrightText: 2026 MrR736
+ * SPDX-License-Identifier: MIT
+ */
 
 package com.github.mrr736.fetchiso;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nio.file.*;
 
 public class Downloader {
-    private String lastError = "";
+	private volatile String lastError = "";
 
-    public boolean downloadFile(String url, String file) {
-        String command = "";
+	public boolean downloadFile(String url,String file) {
+		ProcessBuilder builder;
+		try {
+			if (isCommandAvailable("wget")) {
+				builder = new ProcessBuilder("wget","-q","--show-progress","-O",file,url);
+			} else if (isCommandAvailable("curl")) {
+				builder = new ProcessBuilder("curl","-L","--progress-bar","-o",file,url);
+			} else if (isWindows() && isCommandAvailable("powershell")) {
+				builder = new ProcessBuilder(
+					"powershell", "-Command",
+					"Invoke-WebRequest -Uri \"" + url +
+					"\" -OutFile \"" + file + "\""
+				);
 
-        if (isCommandAvailable("wget")) {
-            command = "wget -q --show-progress -O \"" + file + "\" \"" + url + "\" 2>&1";
-        } else if (isCommandAvailable("curl")) {
-            command = "curl -L --progress-bar -o \"" + file + "\" \"" + url + "\" 2>&1";
-        } else if (isWindows() && isCommandAvailable("powershell")) {
-            command = "powershell -Command \"Invoke-WebRequest -Uri '" + url + "' -OutFile '" + file + "'\"";
-        } else {
-            lastError = "No suitable download tool found (wget, curl, powershell)";
-            return false;
-        }
+			} else {
+				lastError = "No downloader found (wget, curl, powershell)";
+				return false;
+			}
 
-        String output = executeCommand(command);
-        if (output == null) {
-            lastError = "Download command execution failed.";
-            return false;
-        }
+			Process process = builder.redirectErrorStream(true).start();
+			String output = readOutput(process);
 
-        if (!Files.exists(Paths.get(file))) {
-            lastError = "Download completed but file does not exist: " + file;
-            return false;
-        }
-        return true;
-    }
+			int exit = process.waitFor();
+			if (exit != 0) {
+				lastError = "Downloader failed: " + output;
+				return false;
+			}
 
-    public String getLastError() {
-        return lastError;
-    }
+			if (!Files.exists(Paths.get(file))) {
+				lastError = "File not created: " + file;
+				return false;
+			}
+			return true;
+		} catch (Exception e) {
+			lastError = "Download error: " + e.getMessage();
+			return false;
+		}
+	}
 
-    private boolean isCommandAvailable(String cmd) {
-        String checkCmd = isWindows() ? "where " + cmd : "command -v " + cmd;
-        return executeCommand(checkCmd) != null;
-    }
+	public String getLastError() {
+		return lastError;
+	}
 
-    private String executeCommand(String command) {
-        StringBuilder output = new StringBuilder();
-        try {
-            Process process = Runtime.getRuntime().exec(new String[]{"sh", "-c", command});
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            String line;
-            while ((line = reader.readLine()) != null) {
-                output.append(line).append("\n");
-            }
-            process.waitFor();
-            if (process.exitValue() != 0) {
-                return null;
-            }
-        } catch (Exception e) {
-            lastError = "Command execution failed: " + e.getMessage();
-            return null;
-        }
-        return output.toString();
-    }
+	private boolean isCommandAvailable(String command) {
+		try {
+			Process process;
 
-    private boolean isWindows() {
-        return System.getProperty("os.name").toLowerCase().contains("win");
-    }
+			if (isWindows()) {
+				process = new ProcessBuilder("where",command).start();
+			} else {
+				process = new ProcessBuilder("sh","-c","command -v " + command).start();
+			}
+
+			return process.waitFor() == 0;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
+	private String readOutput(Process process) {
+		StringBuilder out = new StringBuilder();
+
+		try (
+			BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))
+		) {
+
+			String line;
+			while ((line = reader.readLine()) != null) {
+				out.append(line).append('\n');
+			}
+		} catch (IOException e) {
+			out.append(e.getMessage());
+		}
+
+		return out.toString();
+	}
+
+	private boolean isWindows() {
+		return System.getProperty("os.name").toLowerCase().contains("win");
+	}
 }
-

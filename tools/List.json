@@ -1,1496 +1,1598 @@
 [
-    {
-        "arch": "amd64",
-        "name": "Android-x86 9.0 x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.6-x86_64-xfce.iso",
-        "file": "androidx86.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Android-x86 9.0 x86",
-        "url": "https://sourceforge.net/projects/android-x86/files/Release%209.0/android-x86-9.0-r2.iso",
-        "file": "androidx86.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Arch Linux 2025.01.01 x86_64",
-        "url": "https://geo.mirror.pkgbuild.com/iso/2025.01.01/archlinux-2025.01.01-x86_64.iso",
-        "file": "archlinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "CachyOS Desktop Edition x86_64",
-        "url": "https://cdn77.cachyos.org/ISO/desktop/241221/cachyos-desktop-linux-241221.iso",
-        "file": "cachyos.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "CachyOS Handheld Edition x86_64",
-        "url": "https://cdn77.cachyos.org/ISO/handheld/241221/cachyos-handheld-linux-241221.iso",
-        "file": "cachyos.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Ventoy 1.1.05 livecd",
-        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-livecd.iso",
-        "file": "Ventoy-livecd.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Zorin OS 17.2 Core x86_64",
-        "url": "https://mirrors.edge.kernel.org/zorinos-isos/17/Zorin-OS-17.2-Core-64-bit.iso",
-        "file": "Zorin-OS.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Zorin OS 17.2 Education x86_64",
-        "url": "https://mirrors.edge.kernel.org/zorinos-isos/17/Zorin-OS-17.2-Education-64-bit.iso",
-        "file": "Zorin-OS.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Zorin OS 17.2 Lite x86_64",
-        "url": "https://mirrors.edge.kernel.org/zorinos-isos/17/Zorin-OS-17.2-Lite-64-bit.iso",
-        "file": "Zorin-OS.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ubuntu 24.10 LTS x86_64",
-        "url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso",
-        "file": "ubuntu.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ubuntu 22.04.5 LTS x86_64",
-        "url": "https://releases.ubuntu.com/22.04.5/ubuntu-22.04.5-desktop-amd64.iso",
-        "file": "ubuntu.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ubuntu 20.04.6 LTS x86_64",
-        "url": "https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso",
-        "file": "ubuntu.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ubuntu 18.04.6 LTS x86_64",
-        "url": "https://releases.ubuntu.com/18.04.6/ubuntu-18.04.6-desktop-amd64.iso",
-        "file": "ubuntu.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ubuntu 16.04.7 LTS x86_64",
-        "url": "https://releases.ubuntu.com/16.04.7/ubuntu-16.04.7-desktop-amd64.iso",
-        "file": "ubuntu.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ubuntu 14.04.6 LTS x86_64",
-        "url": "https://releases.ubuntu.com/14.04.6/ubuntu-14.04.6-desktop-amd64.iso",
-        "file": "ubuntu.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "TinyCore 15.0 Core Edition Without Gui x86",
-        "url": "http://tinycorelinux.net/15.x/x86/release/Core-15.0.iso",
-        "file": "TinyCore.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "TinyCore 15.0 TinyCore Edition x86",
-        "url": "http://tinycorelinux.net/15.x/x86/release/TinyCore-15.0.iso",
-        "file": "TinyCore.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "TinyCore 15.0 CorePlus Edition x86",
-        "url": "http://tinycorelinux.net/15.x/x86/release/CorePlus-15.0.iso",
-        "file": "TinyCore.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "TinyCore 15.0 CorePlus Edition x86_64",
-        "url": "http://tinycorelinux.net/15.x/x86_64/release/CorePure64-15.0.iso",
-        "file": "TinyCore.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "TinyCore 15.0 TinyCorePure Edition x86_64",
-        "url": "http://tinycorelinux.net/15.x/x86_64/release/TinyCorePure64-15.0.iso",
-        "file": "TinyCore.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Tails Linux 6.11 x86_64",
-        "url": "https://mirrors.edge.kernel.org/tails/stable/tails-amd64-6.11/tails-amd64-6.11.iso",
-        "file": "Tails.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 DVD x86_64",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.5-x86_64-dvd.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 DVD ARM64",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.5-aarch64-dvd.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "Rocky Linux 9.5 DVD PowerPC",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.5-ppc64le-dvd.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "Rocky Linux 9.5 DVD IBM Z",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.5-s390x-dvd.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 Boot Without Gui x86_64",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.5-x86_64-boot.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 Boot Without Gui ARM64",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.5-aarch64-boot.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "Rocky Linux 9.5 Boot Without Gui PowerPC",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.5-ppc64le-boot.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "Rocky Linux 9.5 Boot Without Gui IBM Z",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.5-s390x-boot.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 Minimal Without Gui x86_64",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.5-x86_64-minimal.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 Minimal Without Gui ARM64",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.5-aarch64-minimal.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "Rocky Linux 9.5 Minimal Without Gui PowerPC",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.5-ppc64le-minimal.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "Rocky Linux 9.5 Minimal Without Gui IBM Z",
-        "url": "https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.5-s390x-minimal.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 GNOME x86_64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-Workstation-x86_64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 GNOME Lite x86_64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-Workstation-Lite-x86_64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 KDE x86_64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-KDE-x86_64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 Xfce x86_64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-XFCE-x86_64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 Mate x86_64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-MATE-x86_64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Rocky Linux 9.5 Cinnamon x86_64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-Cinnamon-x86_64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 GNOME ARM64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Workstation-aarch64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 GNOME Lite ARM64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Workstation-Lite-aarch64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 KDE ARM64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-KDE-aarch64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 Xfce ARM64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-XFCE-aarch64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 Mate ARM64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-MATE-aarch64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Rocky Linux 9.5 Cinnamon ARM64",
-        "url": "https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Cinnamon-aarch64-latest.iso",
-        "file": "Rocky.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS 0.4.14 bootcd Release x86",
-        "url": "https://downloads.sourceforge.net/reactos/ReactOS-0.4.14-release-125-g5b02d38-iso.zip",
-        "file": "ReactOS.zip"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS 0.4.14 livecd Release x86",
-        "url": "https://downloads.sourceforge.net/reactos/ReactOS-0.4.14-release-125-g5b02d38-live.zip",
-        "file": "ReactOS.zip"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS bootcd gcc Linux Debug Latest x86",
-        "url": "https://iso.reactos.org/bootcd/latest-x86-gcc-lin-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "amd64",
-        "name": "ReactOS bootcd MSVC Windows debug Latest x86_64",
-        "url": "https://iso.reactos.org/bootcd/latest-x64-msvc-win-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS bootcd MSVC Windows debug Latest x86",
-        "url": "https://iso.reactos.org/bootcd/latest-x86-msvc-win-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS bootcd gcc Linux Release x86",
-        "url": "https://iso.reactos.org/bootcd/latest-x86-gcc-lin-rel",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS livecd gcc Linux Debug Latest x86",
-        "url": "https://iso.reactos.org/livecd/latest-x86-gcc-lin-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "amd64",
-        "name": "ReactOS livecd MSVC Windows debug Latest x86_64",
-        "url": "https://iso.reactos.org/livecd/latest-x64-msvc-win-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS livecd MSVC Windows debug Latest x86",
-        "url": "https://iso.reactos.org/livecd/latest-x86-msvc-win-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS livecd gcc Linux Release x86",
-        "url": "https://iso.reactos.org/livecd/latest-x86-gcc-lin-rel",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "i386",
-        "name": "ReactOS livecd gcc 8.3 Linux Debug x86",
-        "url": "https://iso.reactos.org/livecd/latest-x86-gcc8.3-lin-dbg",
-        "file": "ReactOS.7z"
-    },
-    {
-        "arch": "amd64",
-        "name": "Q4OS 5.7 Plasma x86_64",
-        "url": "https://sourceforge.net/projects/q4os/files/stable/q4os-5.7-x64.r1.iso",
-        "file": "q4os.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Q4OS 5.7 Trinity x86_64",
-        "url": "https://sourceforge.net/projects/q4os/files/stable/q4os-5.7-x64-tde.r1.iso",
-        "file": "q4os.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Puppy Linux Debian base 10.0.9 x86_64",
-        "url": "https://distro.ibiblio.org/puppylinux/puppy-bookwormpup/BookwormPup64/10.0.9/BookwormPup64_10.0.9.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Puppy Linux Ubuntu base x86_64",
-        "url": "https://distro.ibiblio.org/puppylinux/puppy-fossa/fossapup64-9.5.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Puppy Linux Ubuntu base x86",
-        "url": "https://sourceforge.net/projects/pb-gh-releases/files/NoblePup32_release/NoblePup32-24.04-250101.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Puppy Linux Slackware base x86_64",
-        "url": "https://sourceforge.net/projects/pb-gh-releases/files/S15Pup64_release/S15Pup64-22.12-250101.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Puppy Linux Slackware base x86",
-        "url": "https://sourceforge.net/projects/pb-gh-releases/files/S15Pup32_release/S15Pup32-22.12-250101.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Puppy Linux Void base x86_64",
-        "url": "https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250101.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Puppy Linux Void base x86",
-        "url": "https://sourceforge.net/projects/pb-gh-releases/files/VoidPup32_release/VoidPup32-22.02-250101.iso",
-        "file": "Puppy-Linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Tumbleweed DVD x86_64",
-        "url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "openSUSE Tumbleweed DVD x86",
-        "url": "https://download.opensuse.org/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "openSUSE Tumbleweed DVD ppc64le",
-        "url": "https://download.opensuse.org/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Tumbleweed DVD aarch64",
-        "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "openSUSE Tumbleweed DVD s390x",
-        "url": "https://download.opensuse.org/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-DVD-s390x-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Tumbleweed NET x86_64",
-        "url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "openSUSE Tumbleweed NET x86",
-        "url": "https://download.opensuse.org/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "openSUSE Tumbleweed NET ppc64le",
-        "url": "https://download.opensuse.org/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Tumbleweed NET aarch64",
-        "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "openSUSE Tumbleweed NET s390x",
-        "url": "https://download.opensuse.org/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Tumbleweed GNOME LiveCD x86_64",
-        "url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Tumbleweed KDE LiveCD x86_64",
-        "url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Tumbleweed Xfce LiveCD x86_64",
-        "url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Tumbleweed Rescue LiveCD x86_64",
-        "url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Tumbleweed GNOME LiveCD aarch64",
-        "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Tumbleweed KDE LiveCD aarch64",
-        "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Tumbleweed Xfce LiveCD aarch64",
-        "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Tumbleweed Rescue LiveCD aarch64",
-        "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Leap 15.6 DVD x86_64",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-x86_64-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Leap 15.6 DVD aarch64",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-aarch64-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "openSUSE Leap 15.6 DVD ppc64le",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-ppc64le-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "openSUSE Leap 15.6 DVD s390x",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-s390x-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "openSUSE Leap 15.6 NET x86_64",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-x86_64-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "openSUSE Leap 15.6 NET aarch64",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-aarch64-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "openSUSE Leap 15.6 NET ppc64le",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-ppc64le-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "openSUSE Leap 15.6 NET s390x",
-        "url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-s390x-Media.iso",
-        "file": "openSUSE.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "NixOS 24.11 GNOME Desktop x86_64",
-        "url": "https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso",
-        "file": "NixOS.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "NixOS 24.11 GNOME Desktop aarch64",
-        "url": "https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-aarch64-linux.iso",
-        "file": "NixOS.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "NixOS 24.11 Plasma 6 x86_64",
-        "url": "https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-x86_64-linux.iso",
-        "file": "NixOS.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "NixOS 24.11 Plasma 6 aarch64",
-        "url": "https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-aarch64-linux.iso",
-        "file": "NixOS.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "NixOS 24.11 Without Gui x86_64",
-        "url": "https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso",
-        "file": "NixOS.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "NixOS 24.11 Without Gui aarch64",
-        "url": "https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-aarch64-linux.iso",
-        "file": "NixOS.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Fedora 41 x86_64",
-        "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41-1.4.iso",
-        "file": "fedora.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Fedora 41 aarch64",
-        "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/aarch64/images/Fedora-Workstation-41-1.4.aarch64.raw.xz",
-        "file": "fedora.raw.xz"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "Fedora 41 ppc64le",
-        "url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/41/Workstation/ppc64le/iso/Fedora-Workstation-Live-ppc64le-41-1.4.iso",
-        "file": "fedora.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda KDE Dr460nized x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Linux KDE Dr460nized Gaming x86_64",
-        "url": "https://r2.garudalinux.org/iso/garuda/dr460nized-gaming/240428/garuda-dr460nized-gaming-linux-zen-240428.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Linux GNOME x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/gnome/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Cinnamon x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/cinnamon/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Xfce x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/xfce/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Sway x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/sway/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda i3WM x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/i3/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Linux KDE lite x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/garuda/kde-lite/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Garuda Linux Hyprland x86_64",
-        "url": "https://iso.builds.garudalinux.org/iso/latest/community/hyprland/latest.iso",
-        "file": "GarudaLinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Kali Linux 2024.4 Installer amd64",
-        "url": "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-amd64.iso",
-        "file": "kali-linux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Kali Linux 2024.4 Installer arm64",
-        "url": "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-arm64.iso",
-        "file": "kali-linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Kali Linux 2024.4 Installer Netinst amd64",
-        "url": "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-netinst-amd64.iso",
-        "file": "kali-linux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Kali Linux 2024.4 Installer Netinst arm64",
-        "url": "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-installer-netinst-arm64.iso",
-        "file": "kali-linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Kali Linux 2024.4 Live Boot amd64",
-        "url": "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-live-amd64.iso",
-        "file": "kali-linux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Kali Linux 2024.4 Live Boot arm64",
-        "url": "https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-live-arm64.iso",
-        "file": "kali-linux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Kinoite 41 x86_64",
-        "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-41-1.4.iso",
-        "file": "Kinoite.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Kinoite 41 ARM64",
-        "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/aarch64/iso/Fedora-Kinoite-ostree-aarch64-41-1.4.iso",
-        "file": "Kinoite.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "Kinoite 41 PowerPC",
-        "url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/41/Kinoite/ppc64le/iso/Fedora-Kinoite-ostree-ppc64le-41-1.4.iso",
-        "file": "Kinoite.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Linux Mint 21.3 Cinnamon Edition x86_64",
-        "url": "https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso",
-        "file": "linuxmint.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Linux Mint 21.3 MATE Edition x86_64",
-        "url": "https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-mate-64bit.iso",
-        "file": "linuxmint.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Linux Mint 21.3 Xfce Edition x86_64",
-        "url": "https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-xfce-64bit.iso",
-        "file": "linuxmint.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Linux Mint 22.1 Cinnamon Edition x86_64",
-        "url": "https://mirrors.cicku.me/linuxmint/iso/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso",
-        "file": "linuxmint.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Linux Mint 22.1 MATE Edition x86_64",
-        "url": "https://mirrors.cicku.me/linuxmint/iso/stable/22.1/linuxmint-22.1-mate-64bit.iso",
-        "file": "linuxmint.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Linux Mint 22.1 Xfce Edition x86_64",
-        "url": "https://mirrors.cicku.me/linuxmint/iso/stable/22.1/linuxmint-22.1-xfce-64bit.iso",
-        "file": "linuxmint.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Mageia 9 Classic Installer x86_64",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-x86_64/Mageia-9-x86_64.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Mageia 9 Classic Installer x86",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-i586/Mageia-9-i586.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Mageia 9 Network Installer x86_64",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/x86_64/install/images/Mageia-9-netinstall-x86_64.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Mageia 9 Network Installer x86",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/i586/install/images/Mageia-9-netinstall-i586.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Mageia 9 Network Installer nonfree x86_64",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/x86_64/install/images/Mageia-9-netinstall-nonfree-x86_64.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Mageia 9 Network Installer nonfree x86",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/i586/install/images/Mageia-9-netinstall-nonfree-i586.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Mageia 9 Xfce Live Boot x86_64",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Mageia 9 Xfce Live Boot x86",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-Xfce-i586/Mageia-9-Live-Xfce-i586.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Mageia 9 Plasma Desktop Live Boot x86_64",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Mageia 9 GNOME Desktop Live Boot x86_64",
-        "url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso",
-        "file": "Mageia.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Deepin 20.9 x86_64",
-        "url": "https://cdimage.deepin.com/releases/20.9/deepin-desktop-community-20.9-amd64.iso",
-        "file": "deepin.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Deepin 23 x86_64",
-        "url": "https://cdimage.deepin.com/releases/23/amd64/deepin-desktop-community-23-amd64.iso",
-        "file": "deepin.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Deepin 23 arm64",
-        "url": "https://cdimage.deepin.com/releases/23/arm64/deepin-desktop-community-23-arm64.iso",
-        "file": "deepin.iso"
-    },
-    {
-        "arch": "loongarch64",
-        "name": "Deepin 23 loongarch64",
-        "url": "https://cdimage.deepin.com/releases/23/loongarch64/deepin-desktop-community-23-loong64.iso",
-        "file": "deepin.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Clonezilla 3.2.0-5 x86_64",
-        "url": "https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.2.0-5/clonezilla-live-3.2.0-5-i686.iso",
-        "file": "Clonezilla.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Clonezilla 3.2.0-5 x86",
-        "url": "https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.2.0-5/clonezilla-live-3.2.0-5-i686.iso",
-        "file": "Clonezilla.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Clonezilla 3.2.0-5 x86 pae",
-        "url": "https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.2.0-5/clonezilla-live-3.2.0-5-i686-pae.iso",
-        "file": "Clonezilla.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Debian 12 BD x86_64",
-        "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.9.0-amd64-BD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Debian 12 BD x86",
-        "url": "https://cdimage.debian.org/debian-cd/current/i386/iso-bd/debian-edu-12.9.0-i386-BD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Debian 12 DVD amd64",
-        "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.9.0-amd64-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Debian 12 DVD arm64",
-        "url": "https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/debian-12.9.0-arm64-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "armel",
-        "name": "Debian 12 DVD armel",
-        "url": "https://cdimage.debian.org/debian-cd/current/armel/iso-dvd/debian-12.9.0-armel-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "armhf",
-        "name": "Debian 12 DVD armhf",
-        "url": "https://cdimage.debian.org/debian-cd/current/armhf/iso-dvd/debian-12.9.0-armhf-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Debian 12 DVD x86",
-        "url": "https://cdimage.debian.org/debian-cd/current/i386/iso-dvd/debian-12.9.0-i386-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "mips64el",
-        "name": "Debian 12 DVD mips64el",
-        "url": "https://cdimage.debian.org/debian-cd/current/mips64el/iso-dvd/debian-12.9.0-mips64el-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "mipsel",
-        "name": "Debian 12 DVD mipsel",
-        "url": "https://cdimage.debian.org/debian-cd/current/mipsel/iso-dvd/debian-12.9.0-mipsel-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "ppc64el",
-        "name": "Debian 12 DVD ppc64el",
-        "url": "https://cdimage.debian.org/debian-cd/current/ppc64el/iso-dvd/debian-12.9.0-ppc64el-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "Debian 12 DVD s390x",
-        "url": "https://cdimage.debian.org/debian-cd/current/s390x/iso-dvd/debian-12.9.0-s390x-DVD-1.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Debian 12 Netinst amd64",
-        "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Debian 12 Netinst arm64",
-        "url": "https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-12.9.0-arm64-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "armel",
-        "name": "Debian 12 Netinst armel",
-        "url": "https://cdimage.debian.org/debian-cd/current/armel/iso-cd/debian-12.9.0-armel-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "armhf",
-        "name": "Debian 12 Netinst armhf",
-        "url": "https://cdimage.debian.org/debian-cd/current/armhf/iso-cd/debian-12.9.0-armhf-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Debian 12 Netinst x86",
-        "url": "https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-12.9.0-i386-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "mips64el",
-        "name": "Debian 12 Netinst mips64el",
-        "url": "https://cdimage.debian.org/debian-cd/current/mips64el/iso-cd/debian-12.9.0-mips64el-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "mipsel",
-        "name": "Debian 12 Netinst mipsel",
-        "url": "https://cdimage.debian.org/debian-cd/current/mipsel/iso-cd/debian-12.9.0-mipsel-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "ppc64el",
-        "name": "Debian 12 Netinst ppc64el",
-        "url": "https://cdimage.debian.org/debian-cd/current/ppc64el/iso-cd/debian-12.9.0-ppc64el-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "s390x",
-        "name": "Debian 12 Netinst s390x",
-        "url": "https://cdimage.debian.org/debian-cd/current/s390x/iso-cd/debian-12.9.0-s390x-netinst.iso",
-        "file": "debian.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "SparkyLinux 7.6 Xfce x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.6-x86_64-xfce.iso",
-        "file": "sparkylinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "SparkyLinux 7.6 Mate x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.6-x86_64-mate.iso",
-        "file": "sparkylinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "SparkyLinux 7.6 KDE x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.6-x86_64-kde.iso",
-        "file": "sparkylinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "SparkyLinux 7.6 LXQt x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.6-x86_64-lxqt.iso",
-        "file": "sparkylinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "SparkyLinux 7.6 Base x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.6-x86_64-minimalgui.iso",
-        "file": "sparkylinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "SparkyLinux 7.6 CLI x86_64",
-        "url": "https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.6-x86_64-minimalcli.iso",
-        "file": "sparkylinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Manjaro Linux 24.2.1 KDE x86_64",
-        "url": "https://sourceforge.net/projects/manjarolinux/files/kde/24.2.1/manjaro-kde-24.2.1-241216-linux612.iso",
-        "file": "manjaro.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Manjaro Linux 24.2.1 GNOME x86_64",
-        "url": "https://sourceforge.net/projects/manjarolinux/files/gnome/24.2.1/manjaro-gnome-24.2.1-241216-linux612.iso",
-        "file": "manjaro.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Manjaro Linux 24.2.1 Xfce x86_64",
-        "url": "https://sourceforge.net/projects/manjarolinux/files/xfce/24.2.1/manjaro-xfce-24.2.1-241216-linux612.iso",
-        "file": "manjaro.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Manjaro Linux 24.0.5 Cinnamon x86_64",
-        "url": "https://download.manjaro.org/cinnamon/24.0.5/manjaro-cinnamon-24.0.5-240729-linux69.iso",
-        "file": "manjaro.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "GParted Live 1.7.0-1 x86_64",
-        "url": "https://sourceforge.net/projects/gparted/files/gparted-live-stable/1.7.0-1/gparted-live-1.7.0-1-amd64.iso",
-        "file": "gparted.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "GParted Live 1.6.0-10 x86 pae",
-        "url": "https://sourceforge.net/projects/gparted/files/gparted-live-stable/1.6.0-10/gparted-live-1.6.0-10-i686-pae.iso",
-        "file": "gparted.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Univention Corporate Server 5.2-0 x86_64",
-        "url": "https://updates.software-univention.de/download/ucs-cds/ucs5/UCS_5.2-0-amd64.iso",
-        "file": "ucs.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Univention Corporate Server 4.4-9 x86",
-        "url": "https://updates.software-univention.de/download/ucs-cds/ucs4/UCS_Update_4.4-8_-_4.4-9-i386.iso",
-        "file": "ucs.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Parrot Home 6.3.2 x86_64",
-        "url": "https://deb.parrot.sh/parrot/iso/6.3.2/Parrot-home-6.3.2_amd64.iso",
-        "file": "parrot.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Parrot htb 6.3.2 x86_64",
-        "url": "https://deb.parrot.sh/parrot/iso/6.3.2/Parrot-htb-6.3.2_amd64.iso",
-        "file": "parrot.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Parrot Security 6.3.2 x86_64",
-        "url": "https://deb.parrot.sh/parrot/iso/6.3.2/Parrot-security-6.3.2_amd64.iso",
-        "file": "parrot.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "FreeBSD Bootonly x86_64",
-        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "FreeBSD DVD x86_64",
-        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "FreeBSD DISC x86_64",
-        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "FreeBSD MemStick x86_64",
-        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "FreeBSD MINI-MemStick x86_64",
-        "url": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "FreeBSD Bootonly x86",
-        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "FreeBSD DVD x86",
-        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-dvd1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "FreeBSD DISC x86",
-        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "FreeBSD MemStick x86",
-        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "FreeBSD MINI-MemStick x86",
-        "url": "https://download.freebsd.org/releases/i386/i386/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-i386-mini-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD Bootonly ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD DVD ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-dvd1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD DISC ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD MemStick ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD MINI-MemStick ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-mini-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD PINE64 ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-PINE64.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD PINE64 LTS ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-PINE64-LTS.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD PINEBOOK ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-PINEBOOK.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD ROCK64 ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-ROCK64.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD ROCKPRO64 ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-ROCKPRO64.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "FreeBSD RPI ARM64",
-        "url": "https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm64-aarch64-RPI.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "armhf",
-        "name": "FreeBSD GENERICSD ARMV7",
-        "url": "https://download.freebsd.org/releases/arm/armv7/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-arm-armv7-GENERICSD.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppc",
-        "name": "FreeBSD Bootonly ppc",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpc/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppc",
-        "name": "FreeBSD DISC ppc",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpc/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppc64",
-        "name": "FreeBSD Bootonly ppc64",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpc64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppc64",
-        "name": "FreeBSD DISC ppc64",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpc64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "FreeBSD Bootonly ppc64le",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpc64le/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64le-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppc64le",
-        "name": "FreeBSD DISC ppc64le",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpc64le/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpc64le-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppcspe",
-        "name": "FreeBSD Bootonly ppcspe",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpcspe/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpcspe-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "ppcspe",
-        "name": "FreeBSD DISC ppcspe",
-        "url": "https://download.freebsd.org/releases/powerpc/powerpcspe/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-powerpc-powerpcspe-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "riscv64",
-        "name": "FreeBSD GENERICSD riscv64",
-        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-GENERICSD.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "riscv64",
-        "name": "FreeBSD Bootonly riscv64",
-        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-bootonly.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "riscv64",
-        "name": "FreeBSD DISC riscv64",
-        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-disc1.iso.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "riscv64",
-        "name": "FreeBSD MemStick riscv64",
-        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "riscv64",
-        "name": "FreeBSD MINI-MemStick riscv64",
-        "url": "https://download.freebsd.org/releases/riscv/riscv64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-riscv-riscv64-mini-memstick.img.xz",
-        "file": "FreeBSD.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Nitrux Linux 3.9.0 x86_64",
-        "url": "https://sourceforge.net/projects/nitruxos/files/Release/ISO/nitrux-nx-desktop-plasma-19c70056-amd64.iso",
-        "file": "Nitrux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Void Linux Base glibc x86_64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-base.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Void Linux Base musl x86_64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-base.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Void Linux Xfce glibc x86_64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-xfce.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Void Linux Xfce musl x86_64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-xfce.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Void Linux Base glibc x86",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-i686-20250202-base.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "i386",
-        "name": "Void Linux Xfce glibc x86",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-i686-20250202-xfce.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Void Linux Base glibc ARM64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-20250202-base.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Void Linux Base musl ARM64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-musl-20250202-base.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Void Linux Xfce glibc ARM64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-20250202-xfce.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Void Linux Xfce musl ARM64",
-        "url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-musl-20250202-xfce.iso",
-        "file": "voidlinux.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 40 Flagship Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-flagship-40-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 40 GNOME Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-gnome-40-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 40 KDE Plasma Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-kde-40-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 40 Xfce Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-xfce-40-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 40 Flagship Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-flagship-40-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 40 GNOME Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-gnome-40-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 40 KDE Plasma Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-kde-40-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 40 Xfce Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/40/ultramarine-xfce-40-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 41 Flagship Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 41 GNOME Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-gnome-41-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 41 KDE Plasma Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-plasma-41-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "amd64",
-        "name": "Ultramarine Linux 41 Xfce Edition x86_64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-xfce-41-live-x86_64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 41 Flagship Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-flagship-41-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 41 GNOME Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-gnome-41-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 41 KDE Plasma Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-plasma-41-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "aarch64",
-        "name": "Ultramarine Linux 41 Xfce Edition ARM64",
-        "url": "https://images.fyralabs.com/isos/ultramarine/41/ultramarine-xfce-41-live-aarch64.iso",
-        "file": "ultramarine.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 Official Standard",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Official-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 GNOME Desktop Standard",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-GNOME-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 KDE Desktop Standard",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-KDE-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 Steam HTPC Standard",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Steam-HTPC-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 Steam Handheld Standard",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Steam-Handheld-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 Official Nvidia",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Official-Nvidia-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 GNOME Desktop Nvidia",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-GNOME-Nvidia-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 KDE Desktop Nvidia",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-KDE-Nvidia-2025-02-20.iso",
-        "file": "Nobara.iso"
-    },
-    {
-        "arch": "all",
-        "name": "Nobara 41 Steam HTPC Nvidia",
-        "url": "https://nobara-images.nobaraproject.org/Nobara-41-Steam-HTPC-Nvidia-2025-02-20.iso",
-        "file": "Nobara.iso"
-    }
+	{
+		"arch": "amd64",
+		"name": "Android-x86 9.0 x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.6-x86_64-xfce.iso",
+		"file": "androidx86.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Android-x86 9.0 x86",
+		"url": "https://sourceforge.net/projects/android-x86/files/Release%209.0/android-x86-9.0-r2.iso",
+		"file": "androidx86.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Arch Linux 2026.06.01 x86_64",
+		"url": "https://geo.mirror.pkgbuild.com/iso/2026.06.01/archlinux-2026.06.01-x86_64.iso",
+		"file": "archlinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "CachyOS Desktop Edition x86_64",
+		"url": "https://cdn77.cachyos.org/ISO/desktop/260426/cachyos-desktop-linux-260426.iso",
+		"file": "cachyos.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "CachyOS Handheld Edition x86_64",
+		"url": "https://cdn77.cachyos.org/ISO/handheld/260426/cachyos-handheld-linux-260426.iso",
+		"file": "cachyos.iso"
+	},
+	{
+		"arch": "all",
+		"name": "Ventoy 1.1.12 livecd",
+		"url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.12/ventoy-1.1.12-livecd.iso",
+		"file": "Ventoy-livecd.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Zorin OS 18.1 Core x86_64",
+		"url": "https://mirrors.edge.kernel.org/zorinos-isos/18/Zorin-OS-18.1-Core-64-bit.iso",
+		"file": "Zorin-OS.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Zorin OS 18.1 Education x86_64",
+		"url": "https://mirrors.edge.kernel.org/zorinos-isos/18/Zorin-OS-18.1-Education-64-bit.iso",
+		"file": "Zorin-OS.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Zorin OS 18.1 Lite x86_64",
+		"url": "https://mirrors.edge.kernel.org/zorinos-isos/18/Zorin-OS-18.1-Lite-64-bit.iso",
+		"file": "Zorin-OS.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 26.04 LTS x86_64",
+		"url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 24.10 LTS x86_64",
+		"url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 22.04.5 LTS x86_64",
+		"url": "https://releases.ubuntu.com/22.04.5/ubuntu-22.04.5-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 20.04.6 LTS x86_64",
+		"url": "https://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 18.04.6 LTS x86_64",
+		"url": "https://releases.ubuntu.com/18.04.6/ubuntu-18.04.6-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 16.04.7 LTS x86_64",
+		"url": "https://releases.ubuntu.com/16.04.7/ubuntu-16.04.7-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ubuntu 14.04.6 LTS x86_64",
+		"url": "https://releases.ubuntu.com/14.04.6/ubuntu-14.04.6-desktop-amd64.iso",
+		"file": "ubuntu.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "TinyCore 17.0 Core Edition Without Gui x86",
+		"url": "http://tinycorelinux.net/17.x/x86/release/Core-17.0.iso",
+		"file": "TinyCore.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "TinyCore 17.0 TinyCore Edition x86",
+		"url": "http://tinycorelinux.net/17.x/x86/release/TinyCore-17.0.iso",
+		"file": "TinyCore.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "TinyCore 17.0 CorePlus Edition x86",
+		"url": "http://tinycorelinux.net/17.x/x86/release/CorePlus-17.0.iso",
+		"file": "TinyCore.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "TinyCore 17.0 CorePlus Edition x86_64",
+		"url": "http://tinycorelinux.net/17.x/x86_64/release/CorePure64-17.0.iso",
+		"file": "TinyCore.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "TinyCore 17.0 TinyCorePure Edition x86_64",
+		"url": "http://tinycorelinux.net/17.x/x86_64/release/TinyCorePure64-17.0.iso",
+		"file": "TinyCore.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Tails Linux 7.8.1 x86_64",
+		"url": "https://mirrors.edge.kernel.org/tails/stable/tails-amd64-7.8.1/tails-amd64-7.8.1.iso",
+		"file": "Tails.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 DVD x86_64",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/x86_64/Rocky-10.2-x86_64-dvd.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 DVD ARM64",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/aarch64/Rocky-10.2-aarch64-dvd.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "Rocky Linux 10.2 DVD PowerPC",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/ppc64le/Rocky-10.2-ppc64le-dvd.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "Rocky Linux 10.2 DVD IBM Z",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/s390x/Rocky-10.2-s390x-dvd.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 Boot Without Gui x86_64",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/x86_64/Rocky-10.2-x86_64-boot.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 Boot Without Gui ARM64",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/aarch64/Rocky-10.2-aarch64-boot.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "Rocky Linux 10.2 Boot Without Gui PowerPC",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/ppc64le/Rocky-10.2-ppc64le-boot.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "Rocky Linux 10.2 Boot Without Gui IBM Z",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/s390x/Rocky-10.2-s390x-boot.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 Minimal Without Gui x86_64",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/x86_64/Rocky-10.2-x86_64-minimal.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 Minimal Without Gui ARM64",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/aarch64/Rocky-10.2-aarch64-minimal.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "Rocky Linux 10.2 Minimal Without Gui PowerPC",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/ppc64le/Rocky-10.2-ppc64le-minimal.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "Rocky Linux 10.2 Minimal Without Gui IBM Z",
+		"url": "https://download.rockylinux.org/pub/rocky/10.2/isos/s390x/Rocky-10.2-s390x-minimal.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 GNOME x86_64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/x86_64/Rocky-10-Workstation-x86_64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 GNOME Lite x86_64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/x86_64/Rocky-10-Workstation-Lite-x86_64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 KDE x86_64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/x86_64/Rocky-10-KDE-x86_64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 Xfce x86_64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/x86_64/Rocky-10-XFCE-x86_64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 Mate x86_64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/x86_64/Rocky-10-MATE-x86_64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Rocky Linux 10.2 Cinnamon x86_64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/x86_64/Rocky-10-Cinnamon-x86_64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 GNOME ARM64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/aarch64/Rocky-10-Workstation-aarch64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 GNOME Lite ARM64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/aarch64/Rocky-10-Workstation-Lite-aarch64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 KDE ARM64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/aarch64/Rocky-10-KDE-aarch64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 Xfce ARM64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/aarch64/Rocky-10-XFCE-aarch64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 Mate ARM64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/aarch64/Rocky-10-MATE-aarch64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Rocky Linux 10.2 Cinnamon ARM64",
+		"url": "https://dl.rockylinux.org/pub/rocky/10.2/live/aarch64/Rocky-10-Cinnamon-aarch64-latest.iso",
+		"file": "Rocky.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS 0.4.14 bootcd Release x86",
+		"url": "https://downloads.sourceforge.net/reactos/ReactOS-0.4.14-release-125-g5b02d38-iso.zip",
+		"file": "ReactOS.zip"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS 0.4.14 livecd Release x86",
+		"url": "https://downloads.sourceforge.net/reactos/ReactOS-0.4.14-release-125-g5b02d38-live.zip",
+		"file": "ReactOS.zip"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS bootcd gcc Linux Debug Latest x86",
+		"url": "https://iso.reactos.org/bootcd/latest-x86-gcc-lin-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "amd64",
+		"name": "ReactOS bootcd MSVC Windows debug Latest x86_64",
+		"url": "https://iso.reactos.org/bootcd/latest-x64-msvc-win-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS bootcd MSVC Windows debug Latest x86",
+		"url": "https://iso.reactos.org/bootcd/latest-x86-msvc-win-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS bootcd gcc Linux Release x86",
+		"url": "https://iso.reactos.org/bootcd/latest-x86-gcc-lin-rel",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS livecd gcc Linux Debug Latest x86",
+		"url": "https://iso.reactos.org/livecd/latest-x86-gcc-lin-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "amd64",
+		"name": "ReactOS livecd MSVC Windows debug Latest x86_64",
+		"url": "https://iso.reactos.org/livecd/latest-x64-msvc-win-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS livecd MSVC Windows debug Latest x86",
+		"url": "https://iso.reactos.org/livecd/latest-x86-msvc-win-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS livecd gcc Linux Release x86",
+		"url": "https://iso.reactos.org/livecd/latest-x86-gcc-lin-rel",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "i386",
+		"name": "ReactOS livecd gcc 8.3 Linux Debug x86",
+		"url": "https://iso.reactos.org/livecd/latest-x86-gcc8.3-lin-dbg",
+		"file": "ReactOS.7z"
+	},
+	{
+		"arch": "amd64",
+		"name": "Q4OS 6.7 Plasma x86_64",
+		"url": "https://sourceforge.net/projects/q4os/files/stable/q4os-6.7-x64.r1.iso",
+		"file": "q4os.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Q4OS 6.7 Trinity x86_64",
+		"url": "https://sourceforge.net/projects/q4os/files/stable/q4os-6.7-x64-tde.r1.iso",
+		"file": "q4os.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Puppy Linux Debian base 10.0.9 x86_64",
+		"url": "https://distro.ibiblio.org/puppylinux/puppy-bookwormpup/BookwormPup64/10.0.9/BookwormPup64_10.0.9.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Puppy Linux Ubuntu base x86_64",
+		"url": "https://distro.ibiblio.org/puppylinux/puppy-fossa/fossapup64-9.5.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Puppy Linux Ubuntu base x86",
+		"url": "https://sourceforge.net/projects/pb-gh-releases/files/NoblePup32_release/NoblePup32-24.04-250101.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Puppy Linux Slackware base x86_64",
+		"url": "https://sourceforge.net/projects/pb-gh-releases/files/S15Pup64_release/S15Pup64-22.12-250101.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Puppy Linux Slackware base x86",
+		"url": "https://sourceforge.net/projects/pb-gh-releases/files/S15Pup32_release/S15Pup32-22.12-250101.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Puppy Linux Void base x86_64",
+		"url": "https://sourceforge.net/projects/pb-gh-releases/files/VoidPup64_release/VoidPup64-22.02-250101.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Puppy Linux Void base x86",
+		"url": "https://sourceforge.net/projects/pb-gh-releases/files/VoidPup32_release/VoidPup32-22.02-250101.iso",
+		"file": "Puppy-Linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Tumbleweed DVD x86_64",
+		"url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "openSUSE Tumbleweed DVD x86",
+		"url": "https://download.opensuse.org/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "openSUSE Tumbleweed DVD ppc64le",
+		"url": "https://download.opensuse.org/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Tumbleweed DVD aarch64",
+		"url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "openSUSE Tumbleweed DVD s390x",
+		"url": "https://download.opensuse.org/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-DVD-s390x-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Tumbleweed NET x86_64",
+		"url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "openSUSE Tumbleweed NET x86",
+		"url": "https://download.opensuse.org/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "openSUSE Tumbleweed NET ppc64le",
+		"url": "https://download.opensuse.org/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Tumbleweed NET aarch64",
+		"url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "openSUSE Tumbleweed NET s390x",
+		"url": "https://download.opensuse.org/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Tumbleweed GNOME LiveCD x86_64",
+		"url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Tumbleweed KDE LiveCD x86_64",
+		"url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Tumbleweed Xfce LiveCD x86_64",
+		"url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Tumbleweed Rescue LiveCD x86_64",
+		"url": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Tumbleweed GNOME LiveCD aarch64",
+		"url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Tumbleweed KDE LiveCD aarch64",
+		"url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Tumbleweed Xfce LiveCD aarch64",
+		"url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Tumbleweed Rescue LiveCD aarch64",
+		"url": "https://download.opensuse.org/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Leap 15.6 DVD x86_64",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-x86_64-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Leap 15.6 DVD aarch64",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-aarch64-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "openSUSE Leap 15.6 DVD ppc64le",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-ppc64le-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "openSUSE Leap 15.6 DVD s390x",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-s390x-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "openSUSE Leap 15.6 NET x86_64",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-x86_64-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "openSUSE Leap 15.6 NET aarch64",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-aarch64-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "openSUSE Leap 15.6 NET ppc64le",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-ppc64le-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "openSUSE Leap 15.6 NET s390x",
+		"url": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-NET-s390x-Media.iso",
+		"file": "openSUSE.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "NixOS 24.11 GNOME Desktop x86_64",
+		"url": "https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso",
+		"file": "NixOS.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "NixOS 24.11 GNOME Desktop aarch64",
+		"url": "https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-aarch64-linux.iso",
+		"file": "NixOS.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "NixOS 24.11 Plasma 6 x86_64",
+		"url": "https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-x86_64-linux.iso",
+		"file": "NixOS.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "NixOS 24.11 Plasma 6 aarch64",
+		"url": "https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-aarch64-linux.iso",
+		"file": "NixOS.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "NixOS 24.11 Without Gui x86_64",
+		"url": "https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso",
+		"file": "NixOS.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "NixOS 24.11 Without Gui aarch64",
+		"url": "https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-aarch64-linux.iso",
+		"file": "NixOS.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Workstation x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Workstation/x86_64/iso/Fedora-Workstation-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Workstation aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Workstation/aarch64/iso/Fedora-Workstation-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 COSMIC Atomic x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/COSMIC-Atomic/x86_64/iso/Fedora-COSMIC-Atomic-ostree-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 COSMIC Atomic aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/COSMIC-Atomic/aarch64/iso/Fedora-COSMIC-Atomic-ostree-aarch64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Everything x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Everything aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Everything/aarch64/iso/Fedora-Everything-netinst-aarch64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 KDE x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/KDE/x86_64/iso/Fedora-KDE-Desktop-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 KDE aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/KDE/aarch64/iso/Fedora-KDE-Desktop-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Kinoite x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Kinoite aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Kinoite/aarch64/iso/Fedora-Kinoite-ostree-aarch64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Python Classroom Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Labs/aarch64/iso/Fedora-Python-Classroom-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Sientific KDE Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Labs/aarch64/iso/Fedora-Scientific_KDE-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Onyx x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Onyx/x86_64/iso/Fedora-Onyx-ostree-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Sericea x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Sericea/x86_64/iso/Fedora-Sericea-ostree-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Server DVD x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Server/x86_64/iso/Fedora-Server-dvd-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Server DVD aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Server/aarch64/iso/Fedora-Server-dvd-aarch64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Server NET x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Server/x86_64/iso/Fedora-Server-netinst-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Server NET aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Server/aarch64/iso/Fedora-Server-netinst-aarch64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Silverblue x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Silverblue aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Silverblue/aarch64/iso/Fedora-Silverblue-ostree-aarch64-44-1.7.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Budgie Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-Budgie-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Cinnamon Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-Cinnamon-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 LXDE Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-LXDE-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 MATE Compiz Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Sway Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-Sway-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 COSMIC Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-COSMIC-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 COSMIC Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-COSMIC-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 KDE Mobile Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 KDE Mobile Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-KDE-Mobile-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 LXQt Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-LXQt-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 LXQt Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-LXQt-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 MiracleWM Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-MiracleWM-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 MiracleWM Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-MiracleWM-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 SoaS Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-SoaS-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 SoaS Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-SoaS-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 Xfce Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-Xfce-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 Xfce Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-Xfce-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Fedora 44 i3 Live x86_64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/x86_64/iso/Fedora-i3-Live-44-1.7.x86_64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Fedora 44 i3 Live aarch64",
+		"url": "https://mirror.alwyzon.net/fedora/linux/releases/44/Spins/aarch64/iso/Fedora-i3-Live-44-1.7.aarch64.iso",
+		"file": "Fedora.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda KDE Dr460nized x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/dr460nized/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Linux KDE Dr460nized Gaming x86_64",
+		"url": "https://r2.garudalinux.org/iso/garuda/dr460nized-gaming/240428/garuda-dr460nized-gaming-linux-zen-240428.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Linux GNOME x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/gnome/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Cinnamon x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/cinnamon/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Xfce x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/xfce/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Sway x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/sway/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda i3WM x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/i3/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Linux KDE lite x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/garuda/kde-lite/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Garuda Linux Hyprland x86_64",
+		"url": "https://iso.builds.garudalinux.org/iso/latest/community/hyprland/latest.iso",
+		"file": "GarudaLinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Kali Linux 2026.1 Installer amd64",
+		"url": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-amd64.iso",
+		"file": "kali-linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Kali Linux 2026.1 Installer Netinst amd64",
+		"url": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-netinst-amd64.iso",
+		"file": "kali-linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Kali Linux 2026.1 Installer Purple amd64",
+		"url": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-purple-amd64.iso",
+		"file": "kali-linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Kali Linux 2026.1 Live Boot amd64",
+		"url": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-live-amd64.iso",
+		"file": "kali-linux.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Kali Linux 2026.1 Installer arm64",
+		"url": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-arm64.iso",
+		"file": "kali-linux.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Kali Linux 2026.1 Live Boot arm64",
+		"url": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-live-arm64.iso",
+		"file": "kali-linux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Kinoite 41 x86_64",
+		"url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-41-1.4.iso",
+		"file": "Kinoite.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Kinoite 41 ARM64",
+		"url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Kinoite/aarch64/iso/Fedora-Kinoite-ostree-aarch64-41-1.4.iso",
+		"file": "Kinoite.iso"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "Kinoite 41 PowerPC",
+		"url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/41/Kinoite/ppc64le/iso/Fedora-Kinoite-ostree-ppc64le-41-1.4.iso",
+		"file": "Kinoite.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Linux Mint 21.3 Cinnamon Edition x86_64",
+		"url": "https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso",
+		"file": "linuxmint.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Linux Mint 21.3 MATE Edition x86_64",
+		"url": "https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-mate-64bit.iso",
+		"file": "linuxmint.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Linux Mint 21.3 Xfce Edition x86_64",
+		"url": "https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-xfce-64bit.iso",
+		"file": "linuxmint.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Linux Mint 22.1 Cinnamon Edition x86_64",
+		"url": "https://mirrors.cicku.me/linuxmint/iso/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso",
+		"file": "linuxmint.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Linux Mint 22.1 MATE Edition x86_64",
+		"url": "https://mirrors.cicku.me/linuxmint/iso/stable/22.1/linuxmint-22.1-mate-64bit.iso",
+		"file": "linuxmint.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Linux Mint 22.1 Xfce Edition x86_64",
+		"url": "https://mirrors.cicku.me/linuxmint/iso/stable/22.1/linuxmint-22.1-xfce-64bit.iso",
+		"file": "linuxmint.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Mageia 9 Classic Installer x86_64",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-x86_64/Mageia-9-x86_64.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Mageia 9 Classic Installer x86",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-i586/Mageia-9-i586.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Mageia 9 Network Installer x86_64",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/x86_64/install/images/Mageia-9-netinstall-x86_64.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Mageia 9 Network Installer x86",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/i586/install/images/Mageia-9-netinstall-i586.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Mageia 9 Network Installer nonfree x86_64",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/x86_64/install/images/Mageia-9-netinstall-nonfree-x86_64.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Mageia 9 Network Installer nonfree x86",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/distrib/9/i586/install/images/Mageia-9-netinstall-nonfree-i586.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Mageia 9 Xfce Live Boot x86_64",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-Xfce-x86_64/Mageia-9-Live-Xfce-x86_64.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Mageia 9 Xfce Live Boot x86",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-Xfce-i586/Mageia-9-Live-Xfce-i586.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Mageia 9 Plasma Desktop Live Boot x86_64",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Mageia 9 GNOME Desktop Live Boot x86_64",
+		"url": "https://ftp.sun.ac.za/ftp/pub/mirrors/mageia/iso/9/Mageia-9-Live-GNOME-x86_64/Mageia-9-Live-GNOME-x86_64.iso",
+		"file": "Mageia.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Deepin 20.9 x86_64",
+		"url": "https://cdimage.deepin.com/releases/20.9/deepin-desktop-community-20.9-amd64.iso",
+		"file": "deepin.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Deepin 23 x86_64",
+		"url": "https://cdimage.deepin.com/releases/23/amd64/deepin-desktop-community-23-amd64.iso",
+		"file": "deepin.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Deepin 23 arm64",
+		"url": "https://cdimage.deepin.com/releases/23/arm64/deepin-desktop-community-23-arm64.iso",
+		"file": "deepin.iso"
+	},
+	{
+		"arch": "loongarch64",
+		"name": "Deepin 23 loongarch64",
+		"url": "https://cdimage.deepin.com/releases/23/loongarch64/deepin-desktop-community-23-loong64.iso",
+		"file": "deepin.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Clonezilla 3.2.0-5 x86_64",
+		"url": "https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.2.0-5/clonezilla-live-3.2.0-5-i686.iso",
+		"file": "Clonezilla.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Clonezilla 3.2.0-5 x86",
+		"url": "https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.2.0-5/clonezilla-live-3.2.0-5-i686.iso",
+		"file": "Clonezilla.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Clonezilla 3.2.0-5 x86 pae",
+		"url": "https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.2.0-5/clonezilla-live-3.2.0-5-i686-pae.iso",
+		"file": "Clonezilla.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Debian 12 BD x86_64",
+		"url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-bd/debian-edu-12.9.0-amd64-BD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Debian 12 BD x86",
+		"url": "https://cdimage.debian.org/debian-cd/current/i386/iso-bd/debian-edu-12.9.0-i386-BD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Debian 12 DVD amd64",
+		"url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.9.0-amd64-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Debian 12 DVD arm64",
+		"url": "https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/debian-12.9.0-arm64-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "armel",
+		"name": "Debian 12 DVD armel",
+		"url": "https://cdimage.debian.org/debian-cd/current/armel/iso-dvd/debian-12.9.0-armel-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "armhf",
+		"name": "Debian 12 DVD armhf",
+		"url": "https://cdimage.debian.org/debian-cd/current/armhf/iso-dvd/debian-12.9.0-armhf-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Debian 12 DVD x86",
+		"url": "https://cdimage.debian.org/debian-cd/current/i386/iso-dvd/debian-12.9.0-i386-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "mips64el",
+		"name": "Debian 12 DVD mips64el",
+		"url": "https://cdimage.debian.org/debian-cd/current/mips64el/iso-dvd/debian-12.9.0-mips64el-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "mipsel",
+		"name": "Debian 12 DVD mipsel",
+		"url": "https://cdimage.debian.org/debian-cd/current/mipsel/iso-dvd/debian-12.9.0-mipsel-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "ppc64el",
+		"name": "Debian 12 DVD ppc64el",
+		"url": "https://cdimage.debian.org/debian-cd/current/ppc64el/iso-dvd/debian-12.9.0-ppc64el-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "Debian 12 DVD s390x",
+		"url": "https://cdimage.debian.org/debian-cd/current/s390x/iso-dvd/debian-12.9.0-s390x-DVD-1.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Debian 12 Netinst amd64",
+		"url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Debian 12 Netinst arm64",
+		"url": "https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-12.9.0-arm64-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "armel",
+		"name": "Debian 12 Netinst armel",
+		"url": "https://cdimage.debian.org/debian-cd/current/armel/iso-cd/debian-12.9.0-armel-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "armhf",
+		"name": "Debian 12 Netinst armhf",
+		"url": "https://cdimage.debian.org/debian-cd/current/armhf/iso-cd/debian-12.9.0-armhf-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Debian 12 Netinst x86",
+		"url": "https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-12.9.0-i386-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "mips64el",
+		"name": "Debian 12 Netinst mips64el",
+		"url": "https://cdimage.debian.org/debian-cd/current/mips64el/iso-cd/debian-12.9.0-mips64el-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "mipsel",
+		"name": "Debian 12 Netinst mipsel",
+		"url": "https://cdimage.debian.org/debian-cd/current/mipsel/iso-cd/debian-12.9.0-mipsel-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "ppc64el",
+		"name": "Debian 12 Netinst ppc64el",
+		"url": "https://cdimage.debian.org/debian-cd/current/ppc64el/iso-cd/debian-12.9.0-ppc64el-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "s390x",
+		"name": "Debian 12 Netinst s390x",
+		"url": "https://cdimage.debian.org/debian-cd/current/s390x/iso-cd/debian-12.9.0-s390x-netinst.iso",
+		"file": "debian.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "SparkyLinux 7.6 Xfce x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/xfce/sparkylinux-7.6-x86_64-xfce.iso",
+		"file": "sparkylinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "SparkyLinux 7.6 Mate x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/mate/sparkylinux-7.6-x86_64-mate.iso",
+		"file": "sparkylinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "SparkyLinux 7.6 KDE x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/kde/sparkylinux-7.6-x86_64-kde.iso",
+		"file": "sparkylinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "SparkyLinux 7.6 LXQt x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/lxqt/sparkylinux-7.6-x86_64-lxqt.iso",
+		"file": "sparkylinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "SparkyLinux 7.6 Base x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/base/sparkylinux-7.6-x86_64-minimalgui.iso",
+		"file": "sparkylinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "SparkyLinux 7.6 CLI x86_64",
+		"url": "https://sourceforge.net/projects/sparkylinux/files/cli/sparkylinux-7.6-x86_64-minimalcli.iso",
+		"file": "sparkylinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Manjaro Linux 26.0.4 KDE x86_64",
+		"url": "https://sourceforge.net/projects/manjarolinux/files/kde/26.0.4/manjaro-kde-26.0.4-260327-linux618.iso",
+		"file": "manjaro.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Manjaro Linux 26.0.4 GNOME x86_64",
+		"url": "https://sourceforge.net/projects/manjarolinux/files/gnome/26.0.4/manjaro-gnome-26.0.4-260327-linux618.iso",
+		"file": "manjaro.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Manjaro Linux 26.0.4 Xfce x86_64",
+		"url": "https://sourceforge.net/projects/manjarolinux/files/xfce/26.0.4/manjaro-xfce-26.0.4-260327-linux618.iso",
+		"file": "manjaro.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "GParted Live 1.8.1-3 x86_64",
+		"url": "https://sourceforge.net/projects/gparted/files/gparted-live-stable/1.8.1-3/gparted-live-1.8.1-3-amd64.iso",
+		"file": "gparted.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Univention Corporate Server 5.2-6 x86_64",
+		"url": "https://updates.software-univention.de/download/ucs-cds/ucs5.2/UCS_5.2-6-amd64.iso",
+		"file": "ucs.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Univention Corporate Server 5.2-0 x86_64",
+		"url": "https://updates.software-univention.de/download/ucs-cds/ucs5/UCS_5.2-0-amd64.iso",
+		"file": "ucs.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Univention Corporate Server 4.4-9 x86",
+		"url": "https://updates.software-univention.de/download/ucs-cds/ucs4/UCS_Update_4.4-8_-_4.4-9-i386.iso",
+		"file": "ucs.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Parrot Home x86_64",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-home-7.2_amd64.iso",
+		"file": "Parrot.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Parrot Security x86_64",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-security-7.2_amd64.iso",
+		"file": "Parrot.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Parrot Enlightenment x86_64",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-spin-enlightenment-7.2_amd64.iso",
+		"file": "Parrot.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Parrot LXQt x86_64",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-spin-lxqt-7.2_amd64.iso",
+		"file": "Parrot.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Parrot MATE x86_64",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-spin-mate-7.2_amd64.iso",
+		"file": "Parrot.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Parrot HTB x86_64",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-spin-htb-7.2_amd64.iso",
+		"file": "Parrot.iso"
+	},
+	{
+		"arch": "arm64",
+		"name": "Parrot Home Raspberry Pi",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-home-7.2_rpi.img.xz",
+		"file": "Parrot.img.xz"
+	},
+	{
+		"arch": "arm64",
+		"name": "Parrot Security Raspberry Pi",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-security-7.2_rpi.img.xz",
+		"file": "Parrot.img.xz"
+	},
+	{
+		"arch": "arm64",
+		"name": "Parrot Core Raspberry Pi",
+		"url": "https://deb.parrot.sh/parrot/iso/7.2/Parrot-core-7.2_rpi.img.xz",
+		"file": "Parrot.img.xz"
+	},
+	{
+		"arch": "amd64",
+		"name": "FreeBSD Bootonly x86_64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-amd64-bootonly.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "amd64",
+		"name": "FreeBSD DVD x86_64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-amd64-dvd1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "amd64",
+		"name": "FreeBSD DISC x86_64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-amd64-disc1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "amd64",
+		"name": "FreeBSD MemStick x86_64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-amd64-memstick.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "amd64",
+		"name": "FreeBSD MINI-MemStick x86_64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-amd64-mini-memstick.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD Bootonly ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-bootonly.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD DVD ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-dvd1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD DISC ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-disc1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD MemStick ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-memstick.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD MINI-MemStick ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-mini-memstick.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD PINE64 ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-PINE64.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD PINE64 LTS ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-PINE64-LTS.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD PINEBOOK ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-PINEBOOK.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD ROCK64 ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-ROCK64.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD ROCKPRO64 ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-ROCKPRO64.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "aarch64",
+		"name": "FreeBSD RPI ARM64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm64-aarch64-RPI.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "armhf",
+		"name": "FreeBSD GENERICSD ARMV7",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-arm-armv7-GENERICSD.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "ppc64",
+		"name": "FreeBSD Bootonly ppc64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-powerpc-powerpc64-bootonly.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "ppc64",
+		"name": "FreeBSD DISC ppc64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-powerpc-powerpc64-disc1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "FreeBSD Bootonly ppc64le",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-powerpc-powerpc64le-bootonly.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "ppc64le",
+		"name": "FreeBSD DISC ppc64le",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-powerpc-powerpc64le-disc1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "riscv64",
+		"name": "FreeBSD GENERICSD riscv64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-riscv-riscv64-GENERICSD.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "riscv64",
+		"name": "FreeBSD Bootonly riscv64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-riscv-riscv64-bootonly.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "riscv64",
+		"name": "FreeBSD DISC riscv64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-riscv-riscv64-disc1.iso.xz",
+		"file": "FreeBSD.iso.xz"
+	},
+	{
+		"arch": "riscv64",
+		"name": "FreeBSD MemStick riscv64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-riscv-riscv64-memstick.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "riscv64",
+		"name": "FreeBSD MINI-MemStick riscv64",
+		"url": "https://download.freebsd.org/releases/ISO-IMAGES/15.1/FreeBSD-15.1-RELEASE-riscv-riscv64-mini-memstick.img.xz",
+		"file": "FreeBSD.img.xz"
+	},
+	{
+		"arch": "amd64",
+		"name": "Nitrux Linux 6.0.0 Contemporary Cachy Mesa x86_64",
+		"url": "https://sourceforge.net/projects/nitruxos/files/Release/ISO/nitrux-contemporary-cachy-mesa-d76f9c00-amd64.iso",
+		"file": "Nitrux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Nitrux Linux 6.0.0 Contemporary Cachy nvopen x86_64",
+		"url": "https://sourceforge.net/projects/nitruxos/files/Release/ISO/nitrux-contemporary-cachy-nvopen-32deb156-amd64.iso",
+		"file": "Nitrux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Void Linux Base glibc x86_64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-base.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Void Linux Base musl x86_64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-base.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Void Linux Xfce glibc x86_64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-20250202-xfce.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Void Linux Xfce musl x86_64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-x86_64-musl-20250202-xfce.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Void Linux Base glibc x86",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-i686-20250202-base.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "i386",
+		"name": "Void Linux Xfce glibc x86",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-i686-20250202-xfce.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Void Linux Base glibc ARM64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-20250202-base.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Void Linux Base musl ARM64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-musl-20250202-base.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Void Linux Xfce glibc ARM64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-20250202-xfce.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Void Linux Xfce musl ARM64",
+		"url": "https://repo-default.voidlinux.org/live/current/void-live-aarch64-musl-20250202-xfce.iso",
+		"file": "voidlinux.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ultramarine Linux 43 Flagship Edition x86_64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-flagship-43-live-x86_64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ultramarine Linux 43 GNOME Edition x86_64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-gnome-43-live-x86_64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ultramarine Linux 43 KDE Plasma Edition x86_64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-kde-43-live-x86_64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "amd64",
+		"name": "Ultramarine Linux 43 Xfce Edition x86_64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-xfce-43-live-x86_64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Ultramarine Linux 43 Flagship Edition ARM64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-flagship-43-live-aarch64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Ultramarine Linux 43 GNOME Edition ARM64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-gnome-43-live-aarch64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Ultramarine Linux 43 KDE Plasma Edition ARM64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-plasma-43-live-aarch64.iso",
+		"file": "ultramarine.iso"
+	},
+	{
+		"arch": "aarch64",
+		"name": "Ultramarine Linux 43 Xfce Edition ARM64",
+		"url": "https://images.fyralabs.com/isos/ultramarine/43/ultramarine-xfce-43-live-aarch64.iso",
+		"file": "ultramarine.iso"
+	}
 ]

@@ -1,163 +1,233 @@
 /*
-// List Manager for Modern Java
-// version 1.0
-// https://github.com/MrR736/FetchISO
-//
-// SPDX-FileCopyrightText: 2025 MrR736 <https://github.com/MrR736>
-// SPDX-License-Identifier: MIT
-*/
+ * List Manager for Modern Java
+ * version 1.1
+ * https://github.com/MrR736/FetchISO
+ *
+ * SPDX-FileCopyrightText: 2025 MrR736 <https://github.com/MrR736>
+ * SPDX-License-Identifier: MIT
+ */
 
 package com.github.mrr736.fetchiso;
 
 import com.github.mrr736.fetchiso.Downloader;
 
 import org.json.*;
+
 import java.io.*;
 import java.nio.file.*;
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.*;
 
+
 public class FetchISOListManager {
-    private static final String CONFIG_FILE = "FetchISO.list";
-    private static final Path TMP_DIR = Paths.get(System.getProperty("java.io.tmpdir"));
-    private static final boolean DEBUG = true;
-    private static final int CACHE_DURATION_MINUTES = 60;
-    private static final int THREAD_POOL_SIZE = Runtime.getRuntime().availableProcessors();
 
-    public static List<String> getJsonFiles(List<String> urls) {
-        ExecutorService executor = Executors.newFixedThreadPool(Math.min(urls.size(), THREAD_POOL_SIZE));
-        List<Future<Optional<String>>> futures = new ArrayList<>();
-        List<String> localFiles = new ArrayList<>();
-        Downloader downloader = new Downloader();
+	private static final String CONFIG_FILE = "FetchISO.list";
 
-        for (int i = 0; i < urls.size(); i++) {
-            final int index = i;
-            futures.add(executor.submit(() -> {
-                Path localFile = TMP_DIR.resolve("List_" + index + ".json");
+	private static final String FETCHISO_CONFIG_FILE =
+		"https://raw.githubusercontent.com/MrR736/FetchISO/main/tools/List.json";
 
-                if (Files.exists(localFile) &&
-                    Duration.between(Files.getLastModifiedTime(localFile).toInstant(), Instant.now()).toMinutes() < CACHE_DURATION_MINUTES) {
-                    if (DEBUG) System.out.println("Skipping fresh file: " + localFile);
-                    return Optional.of(localFile.toString());
-                }
+	private static final Path TMP_DIR = Paths.get(System.getProperty("java.io.tmpdir"));
+	private static final int CACHE_MINUTES = 60;
 
-                if (downloader.downloadFile(urls.get(index), localFile.toString())) {
-                    return Optional.of(localFile.toString());
-                } else {
-                    System.err.println("Error downloading JSON: " + urls.get(index) + " - " + downloader.getLastError());
-                    return Optional.empty();
-                }
-            }));
-        }
 
-        for (Future<Optional<String>> future : futures) {
-            try {
-                future.get().ifPresent(localFiles::add);
-            } catch (Exception e) {
-                System.err.println("Error processing future: " + e.getMessage());
-            }
-        }
-        executor.shutdown();
-        return localFiles;
-    }
 
-    public static void cleanupFiles(List<String> files) {
-        for (String file : files) {
-            try {
-                Files.deleteIfExists(Paths.get(file));
-                if (DEBUG) System.out.println("Removed file: " + file);
-            } catch (IOException e) {
-                System.err.println("Error deleting file: " + file);
-            }
-        }
-    }
+	public static class ListSource {
+		public boolean isUrl;
+		public String value;
+		public ListSource(boolean isUrl,String value) {
+			this.isUrl = isUrl;
+			this.value = value;
+		}
+	}
 
-    public static JSONArray loadJsonData(List<String> files) {
-        JSONArray allReleases = new JSONArray();
 
-        for (String file : files) {
-            try (BufferedReader reader = Files.newBufferedReader(Paths.get(file))) {
-                JSONArray releases = new JSONArray(new JSONTokener(reader));
-                releases.forEach(allReleases::put);
-            } catch (Exception e) {
-                System.err.println("Error processing JSON in " + file + ": " + e.getMessage());
-            }
-        }
-        return allReleases;
-    }
 
-    public static void ensureConfigExists() {
-        Path configPath = Paths.get(CONFIG_FILE);
-        if (!Files.exists(configPath)) {
-            try (BufferedWriter writer = Files.newBufferedWriter(configPath)) {
-                writer.write("# FetchISO List\n\n");
-                writer.write("FIL https://raw.githubusercontent.com/MrR736/FetchISO/main/tools/List.json\n");
-                if (DEBUG) System.out.println("Created default config: " + CONFIG_FILE);
-            } catch (IOException e) {
-                System.err.println("Error creating " + CONFIG_FILE + ": " + e.getMessage());
-            }
-        }
-    }
+	public static class JsonFiles {
+		public List<String> files = new ArrayList<>();
+		public List<String> tempFiles = new ArrayList<>();
+	}
 
-    public static Optional<List<String>> readConfigFile() {
-        ensureConfigExists();
-        List<String> urls = new ArrayList<>();
 
-        try (BufferedReader reader = Files.newBufferedReader(Paths.get(CONFIG_FILE))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                line = line.trim();
-                if (line.startsWith("FIL ")) {
-                    urls.add(line.substring(4));
-                }
-            }
-        } catch (IOException e) {
-            System.err.println("Error reading " + CONFIG_FILE + ": " + e.getMessage());
-            return Optional.empty();
-        }
 
-        return urls.isEmpty() ? Optional.empty() : Optional.of(urls);
-    }
+	/* CONFIG*/
 
-    public static JSONArray refreshDownloadList() {
-        Optional<List<String>> urlsOpt = readConfigFile();
-        if (urlsOpt.isEmpty()) return new JSONArray();
+	private static void ensureConfigExists() {
+		Path path = Paths.get(CONFIG_FILE);
 
-        List<String> jsonFiles = getJsonFiles(urlsOpt.get());
-        JSONArray releases = loadJsonData(jsonFiles);
-        cleanupFiles(jsonFiles);
+		if (!Files.exists(path)) {
+			try (BufferedWriter writer =
+				Files.newBufferedWriter(path)) {
+				writer.write("# FetchISO List\n\n");
+				writer.write("FIL " + FETCHISO_CONFIG_FILE + "\n");
+				System.out.println("Created default config: " + CONFIG_FILE);
+			} catch (IOException e) {
+				System.err.println("Failed creating config: " + e.getMessage());
+			}
+		}
+	}
 
-        return releases;
-    }
+	public static Optional<List<ListSource>> readConfigFile() {
+		ensureConfigExists();
+		List<ListSource> result = new ArrayList<>();
+		try (BufferedReader reader = Files.newBufferedReader(Paths.get(CONFIG_FILE))) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				if (line.isEmpty() || line.startsWith("#"))
+					continue;
 
-    public static List<ISOEntry> getISOList() {
-        JSONArray releases = refreshDownloadList();
-        List<ISOEntry> isoEntries = new ArrayList<>();
+				if (!line.startsWith("FIL "))
+					continue;
 
-        for (int i = 0; i < releases.length(); i++) {
-            JSONObject obj = releases.getJSONObject(i);
-            isoEntries.add(new ISOEntry(
-                obj.optString("name", "Unknown"),
-                obj.optString("url", ""),
-                obj.optString("arch", ""),
-                obj.optString("file", "")
-            ));
-        }
-        return isoEntries;
-    }
+				String value = line.substring(4).trim();
+				boolean url = value.startsWith("http://") || value.startsWith("https://");
+				result.add(new ListSource(url,value));
+			}
+		} catch (IOException e) {
+			System.err.println("Critical Error reading config: " + e.getMessage());
+			return Optional.empty();
+		}
 
-    public static class ISOEntry {
-        public String name;
-        public String url;
-        public String arch;
-        public String file;
+		if (result.isEmpty()) {
+			System.err.println("No valid entries in config");
+			return Optional.empty();
+		}
+		return Optional.of(result);
+	}
 
-        public ISOEntry(String name, String url, String arch, String file) {
-            this.name = name;
-            this.url = url;
-            this.arch = arch;
-            this.file = file;
-        }
-    }
+
+
+
+
+	/* DOWNLOAD*/
+
+	public static JsonFiles getJsonFiles(List<ListSource> sources) {
+		JsonFiles result = new JsonFiles();
+
+		ExecutorService executor =
+			Executors.newFixedThreadPool(Math.max(1,Math.min(sources.size(),Runtime.getRuntime().availableProcessors())));
+
+		List<Future<?>> tasks = new ArrayList<>();
+		Object lock = new Object();
+
+		for (int i = 0; i < sources.size(); i++) {
+			int index = i;
+			ListSource src = sources.get(i);
+			if (!src.isUrl) {
+				if (Files.exists(Paths.get(src.value))) {
+					result.files.add(src.value);
+				} else {
+					System.err.println("Missing file: " + src.value);
+				}
+				continue;
+			}
+
+			tasks.add(executor.submit(() -> {
+					Downloader downloader = new Downloader();
+					Path file = TMP_DIR.resolve("List_" + index + ".json");
+					try {
+						if (Files.exists(file)) {
+							Duration age = Duration.between(Files.getLastModifiedTime(file).toInstant(),Instant.now());
+							if (age.toMinutes() < CACHE_MINUTES) {
+								synchronized(lock) {
+									result.files.add(file.toString());
+									result.tempFiles.add(file.toString());
+								}
+								return;
+							}
+						}
+
+						if (downloader.downloadFile(src.value,file.toString())) {
+							synchronized(lock) {
+								result.files.add(file.toString());
+								result.tempFiles.add(file.toString());
+							}
+						} else {
+							System.err.println("Download failed: " + src.value + " (" + downloader.getLastError() + ")");
+						}
+					} catch (Exception e) {
+						System.err.println("Download error: " + e.getMessage());
+					}
+				}));
+		}
+
+		for (Future<?> task : tasks) {
+			try {
+				task.get();
+			} catch (Exception e) {
+				System.err.println("Worker error: " + e.getMessage());
+			}
+		}
+		executor.shutdown();
+		return result;
+	}
+
+	/* JSON LOAD */
+	public static JSONArray loadJsonData(List<String> files) {
+		JSONArray all = new JSONArray();
+		for (String file : files) {
+			try {
+				String content = Files.readString(Paths.get(file));
+				Object parsed = new JSONTokener(content).nextValue();
+				if (parsed instanceof JSONArray json) {
+					for (Object obj : json) {
+						all.put(obj);
+					}
+				} else {
+					System.err.println("Invalid JSON format: " + file);
+				}
+			} catch (Exception e) {
+				System.err.println("JSON error in " + file + ": " + e.getMessage());
+			}
+		}
+
+		return all;
+	}
+
+	/* CLEANUP */
+	public static void cleanupFiles(List<String> files) {
+		for (String file : files) {
+			try {
+				Files.deleteIfExists(Paths.get(file));
+			} catch (IOException ignored) { }
+		}
+	}
+
+	/* MAIN ENTRY */
+	public static JSONArray refreshDownloadList() {
+		Optional<List<ListSource>> opt = readConfigFile();
+		if (opt.isEmpty())
+			return new JSONArray();
+		JsonFiles files = getJsonFiles(opt.get());
+		JSONArray releases = loadJsonData(files.files);
+		cleanupFiles(files.tempFiles);
+		return releases;
+	}
+
+	/* ISO LIST */
+	public static List<ISOEntry> getISOList() {
+		JSONArray releases = refreshDownloadList();
+		List<ISOEntry> result = new ArrayList<>();
+
+		for (int i = 0; i < releases.length(); i++) {
+			JSONObject obj = releases.getJSONObject(i);
+			result.add(new ISOEntry(obj.optString("name","all"),obj.optString("url",""),
+					   obj.optString("arch",""),obj.optString("file","")));
+		}
+		return result;
+	}
+
+	public static class ISOEntry {
+		public String name;
+		public String url;
+		public String arch;
+		public String file;
+
+		public ISOEntry(String name,String url,String arch,String file) {
+			this.name = name;
+			this.url = url;
+			this.arch = arch;
+			this.file = file;
+		}
+	}
 }
